@@ -1,3 +1,8 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+</style>
+
 /*for nav*/
 section#navicon{
     font-family: 'Lato', sans-serif;
@@ -48,3 +53,30 @@ section#navicon{
     right: 35px;
     }
 }
+
+
+html{
+    font-family: 'Odibee Sans', cursive;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    font-size: 2em;
+    text-align: center;
+}
+
+article{
+    font-size: 2em;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(rgb(255, 193, 111),white);
+    background-attachment: fixed;
+}
+
+
+
