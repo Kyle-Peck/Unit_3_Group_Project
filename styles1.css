@@ -4,10 +4,17 @@ html{
 }
 
 
-/*for nav*/
-section.navicon{
+section#social{
+    display: block;
+    position: right;
+    float: right;
     margin-right: auto;
+    transform: translateY(-40px);
+    
 }
+
+/*for nav*/
+
 section#navicon{
     font-family: 'Lato', sans-serif;
 }
@@ -57,5 +64,13 @@ section#navicon{
     right: 35px;
     }
 }
+/*images*/
+
+img#logo{
+    width: 137px;
+    height: 129px;
+    transform: translateY(-45px) ;
+}
+
 
 
