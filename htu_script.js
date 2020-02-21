@@ -4,17 +4,20 @@
 
 //Changes the instructions to english
 function english(){
+        document.getElementById('theme_css').href = '../red.css';
 
 }
 //changes the instructions to spanish
 function spanish(){
-
+        document.getElementById('theme_css').setAttribute("href", " ../htu2.css");
 }
 //Changes the intructions to french
 function french(){
+        document.getElementById('theme_css').href = '../red.css';
 
 }
 //changes the instructions to irish
 function irish(){
+        document.getElementById('theme_css').href = '../red.css';
 
 }
