@@ -1,8 +1,16 @@
+@charset "utf-8";
+
 html{
     background: linear-gradient(rgb(255, 199, 131), rgb(255, 217, 171), white);
     background-attachment: fixed;
 }
+/*images*/
 
+img#logo{
+    width: 137px;
+    height: 129px;
+    transform: translateY(-45px) ;
+}
 
 section#social{
     display: block;
@@ -64,13 +72,7 @@ section#navicon{
     right: 35px;
     }
 }
-/*images*/
 
-img#logo{
-    width: 137px;
-    height: 129px;
-    transform: translateY(-45px) ;
-}
 
 
 
