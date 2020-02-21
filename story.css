@@ -18,3 +18,10 @@ img{
     height: 200px;
     width: 200px;
 }
+img#logo{
+    float: right;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transform: translateY(-140px);
+}
