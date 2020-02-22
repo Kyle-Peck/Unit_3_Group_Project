@@ -1,6 +1,10 @@
 html{
     background-color: burlywood;
 }
+body{
+    background-color: linear-gradient(red,yellow,orange,red);
+    background-attachment: fixed;
+}
 h1,h2,h3,h4{
     text-align: center;
     font-size: 30px;
