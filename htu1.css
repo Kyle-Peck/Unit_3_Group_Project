@@ -1,0 +1,20 @@
+html{
+    background-color: burlywood;
+}
+body{
+    background-color: linear-gradient(red,yellow,orange,red);
+    background-attachment: fixed;
+}
+h1,h2,h3,h4{
+    text-align: center;
+    font-size: 30px;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+}
+button{
+text-align: center;
+transform: translateX(460px);
+padding: 40px;
+}
