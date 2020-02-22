@@ -34,4 +34,18 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+  changeBG(n);
+}
+
+//swamps style sheet
+
+
+function changeBG(n){
+  if(n==1){
+    document.getElementById("pagestyle").setAttribute("href", "sportSty.css")
+  }else if(n==2){
+    document.getElementById("pagestyle").setAttribute("href", "sportSty2.css")
+  }else{
+    document.getElementById("pagestyle").setAttribute("href", "sportSty3.css")
+  }
 }
