@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+html{
+    text-shadow: .1px .1px black;
+    background-image: url("cityskyline.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Trade Winds';
+    
+   
+}
 div#row{
     background-color:grey;
     width:100%;
@@ -13,29 +25,21 @@ h2{
     height: 40px;
     text-align: center;
     font-size: 100px;
+    color:#82cefd
+  
 }
 picture {
     width:100%;
     opacity: 0.5;
 }
 
-html{
-    background-image: url("beach2.jpeg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
-
-}
-h2{
-    color:#Ba9670
-}
 p{
     font-size:2em; 
-    color:#Ba9670;
+    color:#82cefd;
 }
 label{
     font-size:1.2em;
-  color:#Ba9670;
+  color:#82cefd;
 }
  form{
      size: 100px;
@@ -44,10 +48,11 @@ label{
      height: 30px;
      width: 120px;
      border-radius: 10px;
-     background-color:#70ba74;
-     border-color:#70ba74;
+     background-color:#82fdb3;
+     border-color:#82fdb3;
      margin-left:15px;
  }
  button:hover {
    background-color:#41a146;
  }
+ 

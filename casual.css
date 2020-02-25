@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+html{
+     text-shadow: 1.5px 1.5px hsl(0, 0%, 0%);
+    background-image: url("bikinibottom.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Odibee Sans';
+    
+   
+}
 div#row{
     background-color:grey;
     width:100%;
@@ -13,29 +25,21 @@ h2{
     height: 40px;
     text-align: center;
     font-size: 100px;
+    color:#da5b2d
+  
 }
 picture {
     width:100%;
     opacity: 0.5;
 }
 
-html{
-    background-image: url("beach2.jpeg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
-
-}
-h2{
-    color:#Ba9670
-}
 p{
     font-size:2em; 
-    color:#Ba9670;
+    color:#da5b2d;
 }
 label{
     font-size:1.2em;
-  color:#Ba9670;
+  color:#da5b2d;
 }
  form{
      size: 100px;
@@ -44,10 +48,11 @@ label{
      height: 30px;
      width: 120px;
      border-radius: 10px;
-     background-color:#70ba74;
-     border-color:#70ba74;
+     background-color:#82fdb3;
+     border-color:#82fdb3;
      margin-left:15px;
  }
  button:hover {
    background-color:#41a146;
  }
+ 
