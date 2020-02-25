@@ -1,21 +1,15 @@
-
-
-body{
-    background: url('https://www.onlinestores.com/flagdetective/images/download/united-states-of-america-hi.jpg');
-    background-size: 100%; 
+html{
+    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png');
     background-attachment: fixed;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-
+    background-size: 100%;
 }
 div#theme{
     background: rgba(255, 255, 255, .5);
 }
+
 h1,h2,h3,h4{
     text-align: center;
     font-size: 30px;
-    
 }
 button#eng:hover{
     color: white;
@@ -41,6 +35,7 @@ padding: 40px;
     display: flex;
     justify-content: center;
   }
+
 /*For Nav*/
 section#navicon{
     font-family: 'Lato', sans-serif;
@@ -57,6 +52,7 @@ section#navicon{
     overflow-x: hidden;
     transition: 0.5s;
 }
+
 .overlay-content {
     position: relative;
     top: 25%;
@@ -72,22 +68,4 @@ section#navicon{
     color: #818181;
     display: block;
     transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: white;
-}
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
 }

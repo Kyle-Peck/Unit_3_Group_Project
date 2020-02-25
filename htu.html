@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to Use</title>
-    <link href="reset.css" rel="stylesheet">
-    <script src="script1.js" defer></script>
-    <link href="styles1.css" rel="stylesheet">
-    <link href="htu.css" rel="stylesheet">
     
+    <link href="htu.css" rel="stylesheet">
+    <link href=".css" rel="stylesheet">
+    <!-- <script src="script1.js" defer></script> -->
+    
+    <script src="htu_script.js" defer></script>
 </head>
 <body>
     <header>
+        
         <section id="navicon">
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -22,10 +24,24 @@
                     <a href="#">Our Story</a>
                     <a href="#">Help</a>
                 </div>
+                
             </div>
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            
-        </section>
+        </section>        
     </header>
-</body>
+<div id="theme">
+
+    <h1>How To Use:</h1>
+    <h2>The Nice Fit Watch</h2>
+    <h3>The step by step guide on how to use our product; The Nice Fit</h3>
+    <h4>Choose a langauge:</h4>
+    <div id="buttons">
+        <button type="button" name="submit" id="eng" onclick="english()">English</button>
+        <button type="button" name="submit" id="spa" onclick="spanish()">Español</button>
+        <button type="button" name="submit" id="fre" onclick="french()">Français</button>
+        <button type="button" name="submit" id="ire" onclick="irish()">Gaeilge</button>
+    </div>
+</div>
+
+    </body>
 </html>
