@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 /*for nav*/
 section#navicon{
@@ -54,7 +53,7 @@ section#navicon{
 
 /* Theme(default) for sports  page*/
 html{
-    font-family: 'Oswald' ;
+    font-family: 'Raleway' ;
     background-color: rgb(219, 192, 159);
 }
 
@@ -78,7 +77,7 @@ article{
 }
 
 body{
-    background: url("https://kopywritingkourse.com/wp-content/uploads/home-office-lighting3.jpg");
+    background: url("https://images-na.ssl-images-amazon.com/images/I/71oL4qjprsL._AC_SL1468_.jpg");
     background-size: 100%;
     background-attachment: fixed;
     margin-right: auto;
