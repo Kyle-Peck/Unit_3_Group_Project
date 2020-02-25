@@ -9,6 +9,7 @@
  }
 div#bar{
     background: white;
+    margin-bottom: 30px;
 }
 div#divLogo{
     text-align: center;
@@ -18,6 +19,8 @@ img#logo{
     width: 117px;
     height: 109px;
     transform: translateY(-25px) ;
+    margin-left: 98px;
+    margin-right: -98px;
 
 }
 
@@ -55,6 +58,7 @@ section#navicon{
     width: 100%;
     text-align: center;
     margin-top: 30px;
+
 }
 
 .overlay a {
@@ -185,6 +189,7 @@ img#logo{
   from {opacity: .4}
   to {opacity: 1}
 }
+
 
 /* discription */
 section#homeText{
