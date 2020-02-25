@@ -57,5 +57,11 @@ section#navicon{
     right: 35px;
     }
 }
+/*images*/
 
+img#logo{
+    width: 137px;
+    height: 129px;
+    transform: translateY(-45px) ;
+}
 
