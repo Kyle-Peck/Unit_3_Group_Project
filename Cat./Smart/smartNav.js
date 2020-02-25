@@ -37,4 +37,17 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+  changeBG(n);
+}
+
+function changeBG(n){
+  if(n==1){
+    document.getElementById("pagestyles").setAttribute("href", "smartSty.css")
+  }else if(n==2){
+    document.getElementById("pagestyles").setAttribute("href", "smartSty2.css")
+  }else if(n==3){
+    document.getElementById("pagestyles").setAttribute("href", "smartSty3.css")
+  }else{
+    document.getElementById("pagestyles").setAttribute("href", "smartSty4.css")
+  }
 }

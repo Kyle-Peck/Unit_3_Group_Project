@@ -1,15 +1,14 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 
 html{
-    background: linear-gradient(rgb(149, 158, 186), rgb(111, 119, 143), rgb(106, 144, 191), rgb(90, 151, 225));
+    background: linear-gradient(rgb(255, 199, 131), rgb(255, 217, 171), white);
     background-attachment: fixed;
-    font-family: 'Nunito' ;
 }
 
 div#bar{
-    background: rgb(132, 140, 160);
+    background: white;
 }
 div#divLogo{
     text-align: center;
@@ -94,9 +93,6 @@ section#navicon{
   max-width: 700px;
   position: relative;
   margin: auto;
-  border: 10px black solid;
-  border-radius: 10px;
-  box-shadow: 10px 10px 16px black;
 }
 
 /* Hide the images by default */
@@ -131,7 +127,16 @@ section#navicon{
   background-color: rgba(0,0,0,0.8);
 }
 
-
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
 /* Number text (1/4 etc) */
 .numbertext {
@@ -186,7 +191,3 @@ section#homeText{
  
 }
 
-/* change background */
-body{
-  background
-}

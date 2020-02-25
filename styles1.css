@@ -87,7 +87,6 @@ section#navicon{
 }
 /*images*/
 
-<<<<<<< HEAD
 /*slideshow*/
 * {box-sizing:border-box}
 
@@ -123,13 +122,8 @@ section#navicon{
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-=======
-img#logo{
-    width: 137px;
-    height: 129px;
-    transform: translateY(-45px) ;
->>>>>>> master
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
