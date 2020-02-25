@@ -40,11 +40,13 @@ function showSlides(n) {
 
 
 function changeBG(n){
-  if(n==1){
+  if(n === 1){
     document.getElementById("pagestyle").setAttribute("href", "casualSty.css")
-  }else if(n==2){
+  }else if(n === 2){
     document.getElementById("pagestyle").setAttribute("href", "casualSty2.css")
-  }else{
+  }else if(n === 3){
     document.getElementById("pagestyle").setAttribute("href", "casualSty3.css")
+  }else{
+    document.getElementById("pagestyle").setAttribute("href", "casualSty4.css")
   }
 }
