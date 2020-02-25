@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nice Fit: Sport</title>
+    <link id="pagestyle" href="sportSty.css" rel="stylesheet" />
     <script src="sportNav.js" defer></script>
-    <link href="sportSty.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -28,12 +28,49 @@
         </section>
 
     
-        <figure>
-            <img src="sportRun.png" alt="runner" width="380px" length="400px"/>
-            <figcaption>Live, Breathe, Run</figcaption>
-        </figure>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="sportsLift.png" style="width:100%;"/>
+      <div class="text">Training</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="sportsThrow2.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="sportsTriceps.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="img3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)" ></span>
+    <span class="dot" onclick="currentSlide(2)" ></span>
+    <span class="dot" onclick="currentSlide(3)" ></span>
+    <span class="dot" onclick="currentSlide(4)" ></span>
+  </div>
     <article>
-        <p>At Nice Fit, we even have a sports variation for our athletic customers who stay active.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
     </article>
     </header>
 </body>

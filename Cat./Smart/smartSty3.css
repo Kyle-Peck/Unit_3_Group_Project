@@ -1,8 +1,39 @@
+@charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
+
+html{
+    background: linear-gradient(rgb(255, 199, 131), rgb(255, 217, 171), white);
+    background-attachment: fixed;
+}
+
+div#bar{
+    background: white;
+}
+div#divLogo{
+    text-align: center;
+
+}
+img#logo{
+    width: 117px;
+    height: 109px;
+    transform: translateY(-25px) ;
+
+}
+
+section#social{
+    display: block;
+    position: right;
+    float: right;
+    margin-right: auto;
+    transform: translateY(-30px);
+   
+    
+    
+}
 
 /*for nav*/
+
 section#navicon{
     font-family: 'Lato', sans-serif;
 }
@@ -24,6 +55,7 @@ section#navicon{
     width: 100%;
     text-align: center;
     margin-top: 30px;
+
 }
 
 .overlay a {
@@ -53,57 +85,14 @@ section#navicon{
     }
 }
 
-/* Theme(default) for sports  page*/
-html{
-    font-family: 'Odibee Sans', cursive;
-    background-color: rgb(219, 192, 159);
-}
-
-figure{
-    text-align: center;
-}
-
-figcaption{
-    font-size: 2em;
-    text-align: center;
-}
-
-article{
-    color: black;
-    font-size: 2em;
-    text-align: center;
-    background: rgb(219, 192, 159);
-    margin-right: 200px;
-    margin-left: 200px;
-    border-radius: 30px;
-}
-
-body{
-    background: url("https://s3.amazonaws.com/zenplannerwordpress-stack0/wp-content/uploads/sites/167/2019/01/23185716/Empty-Gym.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    padding-bottom: 25px;
-    margin-bottom: auto;
-}
-
-span{
-  color: white;
-}
-
-
-
+/*slideshow*/
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 700px;
   position: relative;
   margin: auto;
-  padding-bottom: 1px;
-  border: 10px gray solid;
-  border-radius: 10px; 
 }
 
 /* Hide the images by default */
@@ -139,28 +128,17 @@ span{
 }
 
 /* Caption text */
-/* .text {
-  color: orange;
-  font-size: 45px;
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
-} */
-
-.text{
-  font-size: 45px;
-  color: white;
-  text-align: center;
-  bottom: .1px;
-  position: absolute;
-  width: 100%;
-  background: rgb(219, 192, 159);
-  text-shadow: black 1.5px 1.5px;
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/4 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -202,3 +180,14 @@ span{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+/* discription */
+section#homeText{
+  display: block;
+  width: 50%;
+  font-size: 25px;
+
+ 
+}
+
