@@ -1,37 +1,27 @@
 @charset "utf-8";
 
-
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
 html{
-    background: linear-gradient(rgb(255, 199, 131), rgb(255, 217, 171), white);
+    background: linear-gradient(335deg, rgb(72, 72, 72), rgb(51, 51, 51),  rgb(111, 9, 47) ,rgb(150, 52, 52));
     background-attachment: fixed;
+    font-family: 'Odibee Sans' ;
+    font-stretch: condensed;
 }
 
-div#bar{
-    background: white;
-}
-div#divLogo{
-    text-align: center;
 
-}
-img#logo{
-    width: 117px;
-    height: 109px;
-    transform: translateY(-25px) ;
 
+h1#SW{
+  color: black;
+  text-shadow: 2px 2px 7px rgb(174, 51, 51);
 }
 
-section#social{
-    display: block;
-    position: right;
-    float: right;
-    margin-right: auto;
-    transform: translateY(-30px);
-   
-    
-    
+section#homeText{
+  display: block;
+  width: 50%;
+  font-size: 25px;
+  text-shadow: 2px 2px 7px rgb(174, 51, 51);
 }
-
 /*for nav*/
 
 section#navicon{
@@ -68,7 +58,7 @@ section#navicon{
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: white;
+    color: rgb(181, 56, 56);
 }
 .overlay .closebtn {
     position: absolute;
@@ -76,6 +66,7 @@ section#navicon{
     right: 45px;
     font-size: 60px;
 }
+
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -93,6 +84,9 @@ section#navicon{
   max-width: 700px;
   position: relative;
   margin: auto;
+  border: 10px black solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 16px black;
 }
 
 /* Hide the images by default */
@@ -128,14 +122,15 @@ section#navicon{
 }
 
 /* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.text{
+  font-size: 25px;
+  color: black;
   text-align: center;
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+  background: rgb(181, 56, 56);
+  text-shadow: 1px 1.5px .9px black;
 }
 
 /* Number text (1/4 etc) */
@@ -182,12 +177,5 @@ section#navicon{
 }
 
 
-/* discription */
-section#homeText{
-  display: block;
-  width: 50%;
-  font-size: 25px;
 
- 
-}
 

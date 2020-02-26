@@ -8,30 +8,8 @@ html{
     font-family: 'Nunito' ;
 }
 
-div#bar{
-    background: rgb(132, 140, 160);
-}
-div#divLogo{
-    text-align: center;
 
-}
-img#logo{
-    width: 117px;
-    height: 109px;
-    transform: translateY(-25px) ;
 
-}
-
-section#social{
-    display: block;
-    position: right;
-    float: right;
-    margin-right: auto;
-    transform: translateY(-30px);
-   
-    
-    
-}
 
 /*for nav*/
 
@@ -69,7 +47,7 @@ section#navicon{
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: white;
+    color: rgb(77, 153, 245);
 }
 .overlay .closebtn {
     position: absolute;
@@ -165,6 +143,16 @@ section#navicon{
   animation-name: fade;
   animation-duration: 1.5s;
 }
+.text{
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+  background: rgb(78, 158, 255);
+  text-shadow: 1px 1.5px .9px rgb(82, 129, 188);
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
@@ -186,7 +174,3 @@ section#homeText{
  
 }
 
-/* change background */
-body{
-  background
-}

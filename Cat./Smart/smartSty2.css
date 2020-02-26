@@ -3,35 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
 
 html{
-    background: linear-gradient();
+    background: linear-gradient(35deg, rgb(233, 165, 158), rgb(246, 200, 184), rgb(251, 215, 199) );
     background-attachment: fixed;
     font-family: 'Kanit';
 }
 
-div#bar{
-    background: white;
-}
-div#divLogo{
-    text-align: center;
 
-}
-img#logo{
-    width: 117px;
-    height: 109px;
-    transform: translateY(-25px) ;
 
-}
-
-section#social{
-    display: block;
-    position: right;
-    float: right;
-    margin-right: auto;
-    transform: translateY(-30px);
-   
-    
-    
-}
 
 /*for nav*/
 
@@ -69,7 +47,7 @@ section#navicon{
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: white;
+    color: rgb(254, 178, 170);
 }
 .overlay .closebtn {
     position: absolute;
@@ -94,6 +72,9 @@ section#navicon{
   max-width: 700px;
   position: relative;
   margin: auto;
+  border: 10px black solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 16px black;
 }
 
 /* Hide the images by default */
@@ -128,16 +109,7 @@ section#navicon{
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+
 
 /* Number text (1/4 etc) */
 .numbertext {
@@ -170,6 +142,16 @@ section#navicon{
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+.text{
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+  background: rgb(255, 151, 139);
+  text-shadow: 1px 1.5px .9px rgb(247, 172, 164);
 }
 
 @-webkit-keyframes fade {
