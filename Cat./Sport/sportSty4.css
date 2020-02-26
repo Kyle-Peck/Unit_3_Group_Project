@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
 
 
@@ -56,6 +55,7 @@ section#navicon{
 /* Theme(default) for sports  page*/
 html{
     font-family: 'Odibee Sans', cursive;
+    background: rgb(120, 201, 120);
 }
 
 figure{
@@ -71,20 +71,25 @@ article{
     color: white;
     font-size: 2em;
     text-align: center;
-    background: orange;
+    background: forestgreen;
     margin-right: 200px;
     margin-left: 200px;
     border-radius: 30px;
 }
 
 body{
-    background: url("gymBck.png");
+    background: url("https://redlegnation.com/wp-content/uploads/2016/09/field1.jpg");
     background-size: 100%;
     background-attachment: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-bottom: 25px;
+    margin-bottom: auto;
 }
 
 span{
-  color: red;
+  color:black;
 }
 
 
@@ -150,7 +155,8 @@ span{
   bottom: .1px;
   position: absolute;
   width: 100%;
-  background: orange;
+  background: forestgreen;
+  text-shadow: black 1.5px 1.5px;
 }
 
 /* Number text (1/3 etc) */

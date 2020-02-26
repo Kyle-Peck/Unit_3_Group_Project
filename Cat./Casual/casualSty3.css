@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
 /*for nav*/
 section#navicon{
@@ -53,8 +53,8 @@ section#navicon{
 
 /* Theme(default) for sports  page*/
 html{
-    font-family: 'Raleway' ;
-    background-color: rgb(219, 192, 159);
+    font-family: 'Titillium Web' ;
+    background-color: rgb(57, 64, 66);
 }
 
 figure{
@@ -67,17 +67,17 @@ figcaption{
 }
 
 article{
-    color: black;
+    color: white;
     font-size: 2em;
     text-align: center;
-    background: rgb(219, 192, 159);
+    background: rgb(57, 64, 66);
     margin-right: 200px;
     margin-left: 200px;
     border-radius: 30px;
 }
 
 body{
-    background: url("https://wallpaperplay.com/walls/full/4/a/a/77829.jpg");
+    background: url("offBck.png");
     background-size: 100%;
     background-attachment: fixed;
     margin-right: auto;
@@ -100,7 +100,7 @@ span{
   position: relative;
   margin: auto;
   padding-bottom: 1px;
-  border: 10px black solid;
+  border: 10px white solid;
   border-radius: 10px; 
 }
 
@@ -145,7 +145,7 @@ span{
   bottom: .1px;
   position: absolute;
   width: 100%;
-  background: rgb(219, 192, 159);
+  background: rgb(57, 64, 66);
   text-shadow: black 1.5px 1.5px;
 }
 

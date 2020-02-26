@@ -54,7 +54,7 @@ section#navicon{
 /* Theme(default) for sports  page*/
 html{
     font-family: 'Raleway' ;
-    background-color: rgb(219, 192, 159);
+    background-color: rgb(103, 163, 91);
 }
 
 figure{
@@ -70,7 +70,7 @@ article{
     color: black;
     font-size: 2em;
     text-align: center;
-    background: rgb(219, 192, 159);
+    background: rgb(103, 163, 91);
     margin-right: 200px;
     margin-left: 200px;
     border-radius: 30px;
@@ -145,7 +145,7 @@ span{
   bottom: .1px;
   position: absolute;
   width: 100%;
-  background: rgb(219, 192, 159);
+  background: rgb(103, 163, 91);
   text-shadow: black 1.5px 1.5px;
 }
 
