@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script1.js" defer></script>
+    <title>Ratings</title>
+
+    <link href="ratings.css" rel="stylesheet">
     <link href="styles1.css" rel="stylesheet">
+    
+    <script src="script1.js" defer></script>
+    <script src="ratings.js" defer></script>
+   
 </head>
 <body>
+    
     <header>
         <section id="navicon">
             <div id="myNav" class="overlay">
@@ -25,28 +31,21 @@
         </section>
     </header>
 </body>
-</html>
-<form action="/action_page.php">
-  <label for="cars">Choose a product:</label>
-  <select id="prod" name="product">
-    <option value="volvo">sport</option>
-    <option value="saab">classy</option>
-    <option value="fiat">smart</option>
-    <option value="audi">casual</option>
-  </select>
-    <link href="ratings.css" rel="stylesheet">
-  <input type="submit">
-</form>
+
     </article>
-    <p>select the item you would like to see reviews for </p>
-    <article> 
+    <article>  
     <h2> Reviews </h2>
-    <div id="row">
-        <th> Bar</th>
-        <tr>
-            <td>..</td>
-        </tr>
-            <td>..</td>
-        <tr>
-        </tr>
-    </div> 
+    <p>select the item you would like to see reviews for </p>
+    <form action="ratings.js">
+        <label for="watches">Choose a product:</label>
+        <select id="prod" name="product" onchange="button(this)">
+          <option value="sport">sport</option>
+          <option value="classy">classy</option>
+          <option value="smart">smart</option>
+          <option value="casual">casual</option>
+        </select>
+        <button id="submit" class="block"  type="submit">submit</button>
+      </form>
+ </html>
+
+ 

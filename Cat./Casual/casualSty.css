@@ -55,7 +55,7 @@ section#navicon{
 /* Theme(default) for sports  page*/
 html{
     font-family: 'Oswald' ;
-    background-color: rgb(219, 192, 159);
+    background-color: rgb(195, 214, 219);
 }
 
 figure{
@@ -71,7 +71,7 @@ article{
     color: black;
     font-size: 2em;
     text-align: center;
-    background: rgb(219, 192, 159);
+    background: linear-gradient(to right, rgb(219, 192, 159), rgb(195, 214, 219));
     margin-right: 200px;
     margin-left: 200px;
     border-radius: 30px;
@@ -146,7 +146,7 @@ span{
   bottom: .1px;
   position: absolute;
   width: 100%;
-  background: rgb(219, 192, 159);
+  background: linear-gradient(to right, rgb(219, 192, 159), rgb(195, 214, 219));
   text-shadow: black 1.5px 1.5px;
 }
 

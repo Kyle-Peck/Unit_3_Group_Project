@@ -45,7 +45,14 @@ function changeBG(n){
     document.getElementById("pagestyle").setAttribute("href", "sportSty.css")
   }else if(n==2){
     document.getElementById("pagestyle").setAttribute("href", "sportSty2.css")
-  }else{
+  }else if(n==0){
+    document.getElementById("pagestyle").setAttribute("href", "sportSty4.css")
+  }else if(n==5){
+    document.getElementById("pagestyle").setAttribute("href", "sportSty.css")
+  }else if(n==3){
     document.getElementById("pagestyle").setAttribute("href", "sportSty3.css")
+  }
+  else{
+    document.getElementById("pagestyle").setAttribute("href", "sportSty4.css")
   }
 }
