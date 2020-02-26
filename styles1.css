@@ -5,22 +5,21 @@ html{
     background-attachment: fixed;
 }
  header{
-    background: white;
+    background: transparent;
  }
 div#bar{
-    background: white;
+    background: transparent;
     margin-bottom: 30px;
 }
 div#divLogo{
     text-align: center;
-
 }
 img#logo{
     width: 117px;
     height: 109px;
     transform: translateY(-45px) ;
-    margin-left: 98px;
-    margin-right: -98px;
+    margin-left: 655px;
+    margin-right: auto;
 
 }
 
@@ -29,10 +28,7 @@ section#social{
     position: right;
     float: right;
     margin-right: auto;
-    transform: translateY(-30px);
-   
-    
-    
+    transform: translateY(-170px) ;
 }
 
 /*for nav*/

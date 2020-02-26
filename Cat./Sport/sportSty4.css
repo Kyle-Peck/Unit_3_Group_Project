@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
 
 
 /*for nav*/
@@ -54,8 +54,8 @@ section#navicon{
 
 /* Theme(default) for sports  page*/
 html{
-    font-family: 'Odibee Sans', cursive;
-    background: rgb(120, 201, 120);
+    font-family: 'Arvo', ;
+    background:rgb(163, 128, 104);
 }
 
 figure{
@@ -71,14 +71,14 @@ article{
     color: white;
     font-size: 2em;
     text-align: center;
-    background: forestgreen;
+    background: rgb(163, 128, 104);
     margin-right: 200px;
     margin-left: 200px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 body{
-    background: url("https://redlegnation.com/wp-content/uploads/2016/09/field1.jpg");
+    background: url("safeBck.png") ;
     background-size: 100%;
     background-attachment: fixed;
     margin-right: auto;
@@ -101,7 +101,7 @@ span{
   position: relative;
   margin: auto;
   padding-bottom: 1px;
-  border: 10px gray solid;
+  border: 10px black solid;
   border-radius: 10px; 
 }
 
@@ -155,7 +155,7 @@ span{
   bottom: .1px;
   position: absolute;
   width: 100%;
-  background: forestgreen;
+  background: rgb(163, 128, 104);
   text-shadow: black 1.5px 1.5px;
 }
 

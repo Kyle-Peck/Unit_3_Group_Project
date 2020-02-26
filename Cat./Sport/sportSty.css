@@ -75,11 +75,11 @@ article{
     background: rgb(219, 192, 159);
     margin-right: 200px;
     margin-left: 200px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 body{
-    background: url("https://s3.amazonaws.com/zenplannerwordpress-stack0/wp-content/uploads/sites/167/2019/01/23185716/Empty-Gym.jpg");
+    background: url("monoBack.png");
     background-size: 100%;
     background-attachment: fixed;
     margin-right: auto;
