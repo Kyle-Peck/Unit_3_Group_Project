@@ -45,6 +45,10 @@ function changeBG(n){
     document.getElementById("pagestyles").setAttribute("href", "smartSty.css")
   }else if(n==2){
     document.getElementById("pagestyles").setAttribute("href", "smartSty2.css")
+  }else if(n==0){
+    document.getElementById("pagestyles").setAttribute("href", "smartSty4.css")
+  }else if(n==5){
+    document.getElementById("pagestyles").setAttribute("href", "smartSty.css")
   }else if(n==3){
     document.getElementById("pagestyles").setAttribute("href", "smartSty3.css")
   }else{

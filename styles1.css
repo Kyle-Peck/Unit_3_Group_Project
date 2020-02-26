@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-/* html{
+html{
     background: linear-gradient(rgb(255, 199, 131), rgb(255, 217, 171), white);
     background-attachment: fixed;
-} */
+}
  header{
     background: white;
  }
@@ -18,7 +18,7 @@ div#divLogo{
 img#logo{
     width: 117px;
     height: 109px;
-    transform: translateY(-25px) ;
+    transform: translateY(-45px) ;
     margin-left: 98px;
     margin-right: -98px;
 
