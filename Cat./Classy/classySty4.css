@@ -1,26 +1,25 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
 html{
-  background: radial-gradient(white, rgb(196, 194, 194), rgb(94, 94, 94), rgb(49, 49, 49), rgb(20, 20, 20), rgb(12, 12, 12), black); 
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Classy-HD-Picture.jpg");
   background-attachment: fixed;
-  font-family: 'Playball' ;
-  
+  font-family: 'Marck Script' ;
+}
+/* discription */
+section#homeText{
+display: block;
+width: 50%;
+font-size: 25px;
+color: grey;
+text-shadow: 2px 1px 3px rgb(71, 71, 71);
 }
 strong{
-  background:linear-gradient(311deg, #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
-  color:transparent;
-  text-shadow: none;
-  -webkit-background-clip: text;
+    color: rgb(251, 207, 145);
+    text-shadow: 1px 1px .9px grey;
 }
-
 h1#CW{
-  text-shadow: 2px 2px 4px grey;
-}
-section#homeText{
-  text-shadow: 1px 1px 4px whitesmoke;
-  display: block;
-  width: 50%;
-  font-size: 25px;
+    color: grey;
+    text-shadow: 2px 1px 4px rgb(71, 71, 71);
 }
 
 /*for nav*/
@@ -59,10 +58,7 @@ section#navicon{
 }
 
 .overlay a:hover, .overlay a:focus {
-  background:linear-gradient( #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
-  color:transparent;
-  text-shadow: none;
-  -webkit-background-clip: text;
+  color: rgb(251, 207, 145);
 }
 .overlay .closebtn {
   position: absolute;
@@ -160,13 +156,13 @@ animation-duration: 1.5s;
 }
 .text{
 font-size: 25px;
-color: #D4AF37;
+color: rgb(251, 207, 145);
 text-align: center;
 bottom: 0%;
 position: absolute;
 width: 100%;
-background: rgb(19, 19, 19);
-text-shadow: 1px 1.5px 4px rgb(58, 58, 58);
+background: rgb(65, 65, 65);
+text-shadow: 1px 1.5px 3px rgb(31, 31, 31);
 }
 
 @-webkit-keyframes fade {
@@ -179,10 +175,7 @@ from {opacity: .4}
 to {opacity: 1}
 }
 span#nav{
-  background:linear-gradient(311deg, #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
-  color:transparent;
-  text-shadow: none;
-  -webkit-background-clip: text;
+    color: white;
 }
 
 

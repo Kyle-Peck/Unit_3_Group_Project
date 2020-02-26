@@ -1,28 +1,20 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i&display=swap');
 html{
-  background: radial-gradient(white, rgb(196, 194, 194), rgb(94, 94, 94), rgb(49, 49, 49), rgb(20, 20, 20), rgb(12, 12, 12), black); 
+  background: linear-gradient(311deg, white, rgb(107, 155, 221), rgb(56, 104, 172), rgb(34,63,105), rgb(16, 44, 82));
   background-attachment: fixed;
-  font-family: 'Playball' ;
-  
-}
-strong{
-  background:linear-gradient(311deg, #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
-  color:transparent;
-  text-shadow: none;
-  -webkit-background-clip: text;
+  font-family: 'IM Fell Great Primer' ;
 }
 
-h1#CW{
-  text-shadow: 2px 2px 4px grey;
+strong{
+  color: rgb(221, 175, 145);
 }
 section#homeText{
-  text-shadow: 1px 1px 4px whitesmoke;
-  display: block;
-  width: 50%;
-  font-size: 25px;
+  text-shadow: 2px 2px 4px grey;
 }
-
+h1#CW{
+  text-shadow: 3px 3px 4px black;
+}
 /*for nav*/
 
 section#navicon{
@@ -59,10 +51,7 @@ section#navicon{
 }
 
 .overlay a:hover, .overlay a:focus {
-  background:linear-gradient( #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
-  color:transparent;
-  text-shadow: none;
-  -webkit-background-clip: text;
+  color: rgb(221, 175, 145);
 }
 .overlay .closebtn {
   position: absolute;
@@ -160,13 +149,13 @@ animation-duration: 1.5s;
 }
 .text{
 font-size: 25px;
-color: #D4AF37;
+color: rgb(221, 175, 145);
 text-align: center;
 bottom: 0%;
 position: absolute;
 width: 100%;
-background: rgb(19, 19, 19);
-text-shadow: 1px 1.5px 4px rgb(58, 58, 58);
+background: rgb(52, 98, 151);
+text-shadow: 1px 1.5px 4px black;
 }
 
 @-webkit-keyframes fade {
@@ -178,11 +167,13 @@ to {opacity: 1}
 from {opacity: .4}
 to {opacity: 1}
 }
-span#nav{
-  background:linear-gradient(311deg, #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
-  color:transparent;
-  text-shadow: none;
-  -webkit-background-clip: text;
+
+
+/* discription */
+section#homeText{
+display: block;
+width: 50%;
+font-size: 25px;
+
+
 }
-
-
