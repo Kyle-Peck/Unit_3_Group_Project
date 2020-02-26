@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Our Story</title>
-    <link href="reset.css" rel="stylesheet">
-    <link href="styles1.css" rel="stylesheet">
+    <script src="story_script.js" defer></script>
     <link href="story.css" rel="stylesheet">
-    <script src="Script1.js" defer></script>
+    <link href=".css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
@@ -16,11 +16,15 @@
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#">Categories</a>
-                    <a href="#">How to Use</a>
-                    <a href="#">Ratings</a>
-                    <a href="#">Our Story</a>
-                    <a href="#">Help</a>
+                    <a href="index.html">Home</a>
+                    <a href="Cat./Casual/casual.html">Casual</a>
+                    <a href="Cat./Classy/classy.html">Classy</a>
+                    <a href="Cat./Smart/smart.html">Smart</a>
+                    <a href="Cat./Sport/sport.html">Sport</a>
+                    <a href="htu.html">How to Use</a>
+                    <a href="ratings.html">Ratings</a>
+                    <a href="story.html">Our Story</a>
+                    <a href="help.html">Help</a>
                 </div>
             </div>
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
@@ -28,7 +32,13 @@
         </section>
     </header>
     <h1>Jimmy's Story</h1>
-    <img  src="nice_logo.png" alt="no">
+    <div id="buttons">
+        <button type="button" name="submit"  onclick="theme()">Try this theme!</button>
+        <button type="button" name="submit"  onclick="theme1()">Try this theme!</button>
+        <button type="button" name="submit"  onclick="theme2()">Try this theme!</button>
+        <button type="button" name="submit"  onclick="theme3()">Try this theme!</button>
+    </div>
+    <img  src="IMG-6.png" alt="no">
     <article>
          <p>One day Jimmy Torres was going to church when he realized he accidentally got ready for work instead of being ready to praise the Lord.</p>
          <p>With this given problem he sought out to find an easier way to change into clothes for different situations.</p>
