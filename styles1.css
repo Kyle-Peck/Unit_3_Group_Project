@@ -18,7 +18,7 @@ img#logo{
     width: 117px;
     height: 109px;
     transform: translateY(-45px) ;
-    margin-left: 655px;
+    margin-left: 648px;
     margin-right: auto;
 
 }
@@ -28,9 +28,15 @@ section#social{
     position: right;
     float: right;
     margin-right: auto;
-    transform: translateY(-170px) ;
+    transform: translateY(-160px) ;
 }
 
+section#homeText{
+  display: block;
+  width: 100%%;
+  font-size: 25px;
+
+}
 /*for nav*/
 
 section#navicon{
@@ -93,6 +99,9 @@ section#navicon{
   max-width: 700px;
   position: relative;
   margin: auto;
+  border: 10px black solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 16px black;
 }
 
 /* Hide the images by default */
@@ -134,9 +143,10 @@ section#navicon{
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 0%;
   width: 100%;
   text-align: center;
+  background: black;
 }
 
 /* Number text (1/3 etc) */
@@ -183,10 +193,4 @@ section#navicon{
 }
 
 
-/* discription */
-section#homeText{
-  display: block;
-  margin-left: auto;
-  width: 50%;
 
-}
