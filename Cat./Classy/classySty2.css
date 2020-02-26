@@ -1,14 +1,20 @@
 @charset "utf-8";
-
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400i&display=swap');
 html{
-  background: purple;
+  background: linear-gradient(311deg, white, rgb(107, 155, 221), rgb(56, 104, 172), rgb(34,63,105), rgb(16, 44, 82));
   background-attachment: fixed;
-  
+  font-family: 'IM Fell Great Primer' ;
 }
 
-
-
-
+strong{
+  color: rgb(221, 175, 145);
+}
+section#homeText{
+  text-shadow: 2px 2px 4px grey;
+}
+h1#CW{
+  text-shadow: 3px 3px 4px black;
+}
 /*for nav*/
 
 section#navicon{
@@ -45,7 +51,7 @@ section#navicon{
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: rgb(77, 153, 245);
+  color: rgb(221, 175, 145);
 }
 .overlay .closebtn {
   position: absolute;
@@ -143,13 +149,13 @@ animation-duration: 1.5s;
 }
 .text{
 font-size: 25px;
-color: black;
+color: rgb(221, 175, 145);
 text-align: center;
 bottom: 0%;
 position: absolute;
 width: 100%;
-background: rgb(78, 158, 255);
-text-shadow: 1px 1.5px .9px rgb(82, 129, 188);
+background: rgb(52, 98, 151);
+text-shadow: 1px 1.5px 4px black;
 }
 
 @-webkit-keyframes fade {
